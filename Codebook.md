@@ -1,7 +1,7 @@
 #CODEBOOK
 
 
-run_analysis.R will produce the following tables in R:
+#run_analysis.R will produce the following tables in R:
 
 
 X_test 
@@ -55,7 +55,7 @@ y_train2
 
 
 
-RESULT.TXT VARIABLES INFO*
+#RESULT.TXT VARIABLES INFO
 
 (For more in-depth information, see the "features_info.txt" file in the UCI HAR Dataset)
 
