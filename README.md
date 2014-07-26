@@ -1,7 +1,7 @@
-##README
-#Getting and Cleaning Data Course Project
+#README
+Getting and Cleaning Data Course Project
 
-#How to run the analysis on the Samsung Galaxy Smartphone Activity data:
+How to run the analysis on the Samsung Galaxy Smartphone Activity data:
 
 1. Make sure the following files are in your working directory: "start.R" and "run_analysis.R"
 2. You can either run the "start.R" script, or type in 'source("run_analysis.R")' in R Studio. (Both methods will perform the same function).
@@ -9,7 +9,7 @@
 4. "result.txt" will be the final output. You can find this in your working directory.
 5. You can read the output "result.txt" back into R by using the command: 'table<- read.table("./result.txt"); table'
 
-#Description of run_analysis.R script:
+Description of run_analysis.R script:
 
 	The script will download the UCI HAR Dataset from the internet location. It will then unzip the file in your current working directory. 
 	It will bring in all the relevant tables for our analysis and create "test" and "train" tables, which include the "test" and "train" subjects, their activities (and the appropriate character label for that activity), and their measurements for that activity. 
